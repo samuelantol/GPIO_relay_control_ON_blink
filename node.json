@@ -1,0 +1,6 @@
+{
+    "name": "Hello World Node",
+    "desc": "Demonstrate GPIO integration",
+    "repository": "https://github.com/info-beamer/package-gpio-demo",
+    "platforms": ["pi/epoch-1", "pi/epoch-2"]
+}
