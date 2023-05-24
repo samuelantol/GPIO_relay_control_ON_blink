@@ -4,7 +4,8 @@ import RPi.GPIO as GPIO
 
 relay_ch = 26
 
-
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
 while True: 
   GPIO.setwarnings(False)
   GPIO.setmode(GPIO.BCM)
