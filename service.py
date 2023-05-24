@@ -12,3 +12,4 @@ while true:
   time.sleep(1)
   GPIO.output(relay_ch, GPIO.HIGH)
   GPIO.cleanup()
+  time.sleep(1)
