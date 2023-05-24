@@ -1,5 +1,5 @@
 {
-    "name": "Hello World Node",
+    "name": "GPIO Node",
     "author": "Samuel Chovanec",
     "desc": "Demonstrate GPIO integration",
     "repository": "https://github.com/info-beamer/package-gpio-demo",
