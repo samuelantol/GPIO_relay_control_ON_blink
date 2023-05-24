@@ -2,6 +2,6 @@
     "name": "GPIO Node",
     "author": "Samuel Chovanec",
     "desc": "Demonstrate GPIO integration",
-    "repository": "https://github.com/info-beamer/package-gpio-demo",
+    "repository": "https://github.com/samuelchovanec/test-package-infobeamer",
     "platforms": ["pi/epoch-1", "pi/epoch-2"]
 }
