@@ -1,6 +1,13 @@
 {
-    "name": "Hello World Node",
-    "desc": "Demonstrate GPIO integration",
-    "repository": "https://github.com/info-beamer/package-gpio-demo",
-    "platforms": ["pi/epoch-1", "pi/epoch-2"]
+    "name": "GPIO Demo",
+    "permissions": {
+        "gpio": "Access GPIO"
+    },
+    "options": [{
+        "title": "PIN",
+        "ui_width": 4,
+        "name": "pin",
+        "type": "integer",
+        "default": 18
+    }]
 }
