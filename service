@@ -1,5 +1,6 @@
 #!/usr/bin/python2.7
 from hosted import device
+import time
 
 while True:
   device.gpio.setup_pin(26, direction="out")
