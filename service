@@ -1,5 +1,5 @@
 #!/usr/bin/python2.7
-from hosted import device
+from hosted import device, node, config
 
 device.gpio.setup_pin(26, direction="out")
 device.gpio.set_pin_value(26, high=True)
