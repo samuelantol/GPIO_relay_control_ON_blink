@@ -1362,7 +1362,7 @@ if __name__ == "__main__":
 else:
     log("starting version %s" % (VERSION,))
 
-    node = NODE = Node(os.environ['NODE'])
+    node = NODE = Node(os.environ['./node.json'])
     config = CONFIG = Configuration()
     api = API = OnDeviceAPIs(CONFIG)
     device = DEVICE = Device(
