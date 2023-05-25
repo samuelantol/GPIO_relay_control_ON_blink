@@ -24,5 +24,5 @@ function node.render()
         gl.clear(0, 1, 0, 1) -- green
    
        
-    end
+    
 end
