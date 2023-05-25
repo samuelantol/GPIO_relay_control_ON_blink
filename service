@@ -2,5 +2,6 @@
 from hosted import device, node, config
 
 device.gpio.setup_pin(26, direction="out")
+time.sleep(1)
 device.gpio.set_pin_value(26, high=True)
 time.sleep(1)
