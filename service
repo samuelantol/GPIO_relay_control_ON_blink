@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from hosted import device
-while True:
-  device.gpio.setup_pin(26, direction="out")
-  device.gpio.set_pin_value(26, high=True)
+
+device.gpio.setup_pin(26, direction="out")
+device.gpio.set_pin_value(26, high=True)
 
