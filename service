@@ -1,5 +1,5 @@
 #!/usr/bin/python2.7
-from hosted import device, node, config
+from hosted import device
 
 device.gpio.setup_pin(26, direction="out")
 time.sleep(1)
