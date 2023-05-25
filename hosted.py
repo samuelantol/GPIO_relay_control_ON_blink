@@ -1362,7 +1362,7 @@ if __name__ == "__main__":
 else:
     log("starting version %s" % (VERSION,))
 
-    node = NODE = Node(os.environ['GPIO Demo SNG'])
+    node = NODE = Node(os.environ['NODE'])
     config = CONFIG = Configuration()
     api = API = OnDeviceAPIs(CONFIG)
     device = DEVICE = Device(
