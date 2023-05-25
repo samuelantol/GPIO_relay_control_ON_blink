@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.7
 from hosted import device
 
 device.gpio.setup_pin(26, direction="out")
