@@ -1,11 +1,6 @@
 #!/usr/bin/python
-import time
 from hosted import device
-
 while True:
-  device.gpio.on(26)
   device.gpio.setup_pin(26, direction="out")
-  device.gpio.set_pin_value(26, high=False)
-  time.sleep(1)
   device.gpio.set_pin_value(26, high=True)
-  time.sleep(1)
+
