@@ -1,7 +1,7 @@
 {
     "name": "GPIO relay control ON",
     "author": "Samuel Chovanec",
-    "desc": "GPIO relay controll that turns pin 26 ON",
+    "desc": "GPIO relay control that turns pin 26 ON",
     "repository": "https://github.com/samuelchovanec/GPIO_relay_controll_ON",
     "platforms": ["pi/epoch-1", "pi/epoch-2"]
 }
