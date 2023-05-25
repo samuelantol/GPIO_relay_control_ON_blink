@@ -1,13 +1,8 @@
 {
-    "name": "GPIO Demo SNG",
+    "name": "PIN 26 ON",
     "permissions": {
         "gpio": "Access GPIO"
     },
     "options": [{
-        "title": "PIN",
-        "ui_width": 4,
-        "name": "pin",
-        "type": "integer",
-        "default": 18
     }]
 }
