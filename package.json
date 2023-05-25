@@ -1,7 +1,7 @@
 {
-    "name": "GPIO Node SNG",
+    "name": "GPIO relay controll ON",
     "author": "Samuel Chovanec",
-    "desc": "Demonstrate GPIO relay controll integration",
-    "repository": "https://github.com/samuelchovanec/test-package-infobeamer",
+    "desc": "GPIO relay controll that turns pin 26 ON",
+    "repository": "https://github.com/samuelchovanec/GPIO_relay_controll_ON",
     "platforms": ["pi/epoch-1", "pi/epoch-2"]
 }
