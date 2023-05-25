@@ -2,5 +2,5 @@
 from hosted import device
 
 device.gpio.setup_pin(26, direction="out")
-device.gpio.set_pin_value(26, high=True)
+device.gpio.set_pin_value(26, high=False)
 
