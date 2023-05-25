@@ -1,7 +1,7 @@
 {
-    "name": "GPIO Node",
+    "name": "GPIO Node SNG",
     "author": "Samuel Chovanec",
-    "desc": "Demonstrate GPIO integration",
+    "desc": "Demonstrate GPIO relay controll integration",
     "repository": "https://github.com/samuelchovanec/test-package-infobeamer",
     "platforms": ["pi/epoch-1", "pi/epoch-2"]
 }
