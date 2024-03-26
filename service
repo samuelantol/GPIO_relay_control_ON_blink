@@ -3,8 +3,8 @@ from hosted import device
 import time, random
 device.gpio.setup_pin(4, direction="out")
 device.gpio.set_pin_value(4,  high=False)
-time.sleep(5)
+time.sleep(300)
 device.gpio.set_pin_value(4,  high=True)
-time.sleep(5)
+time.sleep(600)
 device.gpio.set_pin_value(4,  high=False)
-time.sleep(random.randint(180,420))
+time.sleep(300)
